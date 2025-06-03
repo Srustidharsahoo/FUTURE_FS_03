@@ -1,0 +1,57 @@
+.contact-section{
+    padding: 3rem;
+}
+
+.contact-box form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 2rem;
+    width: 50%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 2.5rem;
+    border-radius: 1rem;
+    color: #64748B;
+}
+
+.contact-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: .5rem;
+}
+
+.contact-name input{
+    padding: .5rem;
+    width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    outline: none;
+    border: none;
+}
+
+.contact-email input{
+    padding: .5rem;
+    width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    outline: none;
+    border: none;
+}
+
+.contact-message textarea{
+    padding: .5rem;
+    width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    outline: none;
+    border: none;
+}
+
+.contact-btn button{
+    padding: .6rem 1rem;
+    border-radius: .3rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #0AAD0A;
+    color: #fff;
+    border: none;
+    font-size: 1.1rem;
+    
+}

@@ -1,0 +1,151 @@
+/* accordion.css */
+.accordion-item {
+  border: 1px solid #ccc;
+  margin: 1rem 1rem;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  border-radius: .5rem;
+  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+  background-color: #fff;
+}
+
+.accordion-header {
+  padding: 1rem;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 18rem;
+  align-items: center;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 1rem;
+  background-color: white;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.accordion-content.open {
+  max-height: 500px;
+  padding: 1rem;
+}
+
+.address-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+/* .address-section h3{
+  color: #212121;
+} */
+
+.address-btn button{
+    padding: .5rem;
+    border-radius: .3rem;
+    background-color: #fff;
+    border: 1px solid #099309;
+    color: #099309;
+    font-size: 1.001rem;
+    font-weight: bold;
+}
+
+.address-btn button:hover{
+    background-color: #099309;
+    color: #fff;
+}
+
+.delivery-instruction{
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+}
+
+.delivery-instruction textarea{
+    border: 1px solid #ddd;
+    border-radius: .5rem;
+    outline: none;
+    padding: .5rem;
+    resize: none;
+    height: 8rem;
+}
+
+.delivery-instruction span{
+    color: #888c92;
+    font-size: .8rem;
+}
+
+
+/* components/PaymentOption.css */
+.payment-option {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: #fff;
+}
+
+.payment-option.active {
+  border-color: #2563eb;
+}
+
+.payment-label {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  cursor: pointer;
+}
+
+.payment-label input[type="radio"] {
+  margin-top: 5px;
+}
+
+.payment-option p {
+  margin: 4px 0 0;
+  color: #555;
+}
+
+.card-fields {
+  margin-top: 1rem;
+}
+
+.card-fields input,
+.card-fields select {
+  padding: 0.6rem;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: calc(100% - 1rem);
+  outline: none;
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card-grid > div {
+  flex: 1;
+  min-width: 160px;
+}
+
+
+@media (max-width: 431px){
+
+  .address-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 2rem;
+}
+
+.address-btn{
+  display: none;
+}
+}

@@ -1,0 +1,47 @@
+.order-success {
+  max-width: 500px;
+  margin: 5rem auto;
+  text-align: center;
+  padding: 2rem;
+  background-color: #f0fdf4;
+  border: 1px solid #d1fae5;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 128, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.success-icon {
+  font-size: 4rem;
+  color: #22c55e;
+  margin-bottom: 1rem;
+}
+
+.order-success h1 {
+  color: #065f46;
+  margin-bottom: 0.5rem;
+}
+
+.order-success p {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.order-id {
+  font-weight: bold;
+  color: #047857;
+}
+
+.home-button {
+  display: inline-block;
+  margin-top: 1rem;
+  background-color: #10b981;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #059669;
+}

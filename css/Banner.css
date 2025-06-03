@@ -1,0 +1,139 @@
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d7e9de;
+  padding: 100px 40px;
+  border-radius: 10px;
+  position: relative;
+  margin: 0rem 1rem;
+}
+
+.banner-content {
+  max-width: 50%;
+}
+
+.discount-tag {
+  background-color: #ffd700;
+  color: #000;
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.banner-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+  color: #002b23;
+}
+
+.banner-subtext {
+  font-size: 1.1rem;
+  margin: 16px 0;
+  color: #333;
+}
+
+.shop-now {
+  padding: 10px 18px;
+  background-color: #001d2e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.banner-image {
+  position: relative;
+}
+
+.banner-image img {
+  width: 350px;
+  border-radius: 16px;
+}
+
+.badge {
+  position: absolute;
+  background: white;
+  padding: 6px 10px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* responsive design */
+
+@media (max-width: 431px){
+.banner {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 92%;
+  row-gap: 1rem;
+  justify-content: space-between;
+  background-color: #d7e9de;
+  margin: 1.5rem 1rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+  position: relative;
+
+}
+
+.banner-content {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  row-gap: .7rem;
+}
+
+.banner-image{
+  display: none;
+  justify-content: space-between;
+  
+}
+
+.banner-image img {
+  width: 250px;
+}
+
+.banner-subtext {
+  font-size: 1.1rem;
+  margin: 0rem;
+  color: #333;
+}
+
+.banner-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+  color: #002b23;
+}
+
+.shop-now {
+  padding: 10px 18px;
+  background-color: #001d2e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.discount-tag {
+  background-color: #ffd700;
+  color: #000;
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+}
+
+

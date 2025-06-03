@@ -1,0 +1,153 @@
+.product-section{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin: 2rem;
+}
+
+.product-box{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 1rem;
+}
+
+.image-box{
+    border-radius: .5rem;
+    /* margin: 1rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: 1rem;
+    justify-content: space-between;
+    padding: 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.image-section img{
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.image-box:hover {
+  transform: scale(1.03);
+  /* box-shadow: 0 0 20px rgba(0,255,255,0.5); */
+}
+
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    /* width: 100%;  */
+}
+
+.btn button{
+    padding: .5rem 1.5rem;
+    border-radius: .5rem;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: #099309;
+    /* width: 100%; */
+}
+
+.image-name p{
+    font-weight: bold;
+}
+
+.item-quantity p{
+    color: #7F8B93;
+}
+
+.cart-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; 
+}
+
+.like{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 2rem;
+    width: 2rem;
+    padding: .5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:aquamarine;
+}
+
+.like:hover{
+    background-color: aquamarine;
+    color: #fff;
+}
+
+
+
+
+@media (max-width: 431px){
+.product-section{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin: 1.5rem;
+}
+
+.product-box{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 1.5rem;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    width: 100%; 
+}
+
+.btn button{
+    padding: .5rem 1.5rem;
+    border-radius: .5rem;
+    border: none;
+    color: #fff;
+    /* font-weight: bold; */
+    background-color: #099309;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.image-name p{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.item-quantity p{
+    color: #7F8B93;
+    font-size: 1.1rem;
+}
+
+.item-rate p{
+    font-size: 1.4rem;
+}
+
+.cart-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; 
+}
+
+.like{
+    display: none;
+}
+
+
+}

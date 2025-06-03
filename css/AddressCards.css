@@ -1,0 +1,99 @@
+.address-container {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.address-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.address-card.default {
+  border-left: 4px solid #4CAF50;
+}
+
+.address-type {
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.address-details {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.address-details .name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.address-details .street {
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.address-details .phone {
+  color: #555;
+}
+
+.address-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+}
+
+.default-badge {
+  background-color: #e8f5e9;
+  color: #4CAF50;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.set-default,
+.edit,
+.delete {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s;
+}
+
+.set-default {
+  background-color: #f1f8e9;
+  color: #4CAF50;
+}
+
+.set-default:hover {
+  background-color: #e8f5e9;
+}
+
+.edit {
+  background-color: #e3f2fd;
+  color: #1976d2;
+}
+
+.edit:hover {
+  background-color: #bbdefb;
+}
+
+.delete {
+  background-color: #ffebee;
+  color: #d32f2f;
+}
+
+.delete:hover {
+  background-color: #ffcdd2;
+}
